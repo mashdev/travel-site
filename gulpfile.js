@@ -4,7 +4,8 @@ postcss = require('gulp-postcss'),
 autoprefixer = require('autoprefixer'),
 cssvars = require('postcss-simple-vars'),
 nested = require('postcss-nested'),
-cssimport = require('postcss-import');
+cssimport = require('postcss-import')
+browserSync = require('browser-sync').create();
 
 gulp.task('default', function() {
   console.log('created gulp task');
